@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Ejercicio arrays</h1></header>
+    <main>
+        <form onsubmit="return false;">
+            <fieldset>
+                <legend>Add Item</legend>
+                    <button onclick="pusharr()">push</button>
+                    <button onclick="unshift()">unshift</button>
+                    <button onclick="insert()">insert at</button>
+                    <input type="number" value="0"  id="num">
+            </fieldset>
+            <fieldset>
+                <legend>Remove Item</legend>
+                    <button onclick="pop()">pop</button>
+                    <button onclick="shift()">shift</button>
+                    <button onclick="remove()">remove at</button>
+                    <input type="number" value="0" id="num2">
+            </fieldset>
+            <p>[<span id="display"></span>]</p>
+        </form>
+    </main>
+</body>
+</html>
